@@ -1,3 +1,4 @@
+#viewport
 ul, ol {
     background: #fcfcfc;/*背景色*/
     padding: 0.5em 0.5em 0.5em 2em;/*ボックス内の余白*/
@@ -11,6 +12,10 @@ ul, ol {
 
 li{
   list-style: none;
+}
+
+.profile{
+
 }
 
 span{
