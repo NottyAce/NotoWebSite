@@ -35,7 +35,10 @@ li{
 }
 
 .work{
-  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  width: 350px;
+  height: 500px;
   padding: 2em 2em 4em 2em;/*ボックス内の余白 上，右，下，左の順*/
   background-color:#d1cdcd;
 }
