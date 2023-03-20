@@ -4,10 +4,10 @@ ul, ol {
     border: solid 3px gray;/*線の種類 太さ 色*/
   }
 
-  ul li, ol li {
+ul li, ol li {
     line-height: 1.5; /*文の行高*/
     padding: 0.5em 0; /*前後の文との余白*/
-  }
+  } 
 
 li{
   list-style: none;
@@ -24,9 +24,13 @@ li{
   float: left;
 }
 
+/* .profileicon{
+  float:right;
+} */
+
 .profileData{
   margin-left: 200px;
-  margin-bottom: 120px;
+  margin-bottom: 25px;
 }
 
 .works{
@@ -43,6 +47,15 @@ li{
   background-color:#d1cdcd;
 }
 
-span{
-  display: flex;
+@media(mix-width:50px){
+  span{
+    display: block;
+  } 
 }
+
+@media(min-width:1000px){
+  span{
+    display: flex;
+  }
+}
+
