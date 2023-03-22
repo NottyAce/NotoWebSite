@@ -47,6 +47,30 @@ li{
   background-color:#d1cdcd;
 }
 
+.mokuji{
+margin-left: 30px;
+}
+
+.l_toc{position: fixed;
+  float: left;
+  background-color: #EEFFFF;
+  border: solid 1px black;
+}
+
+.l_toc > ol{
+  background-color: #EEFFFF;
+  border:none;
+}
+
+.child_ol{
+  background-color: #EEFFFF;
+  border:none;
+}
+
+.main{
+  margin-left: 300px;
+}
+
 @media(mix-width:50px){
   span{
     display: block;
