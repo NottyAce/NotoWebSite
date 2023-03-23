@@ -51,6 +51,10 @@ li{
 margin-left: 30px;
 }
 
+.apeal > li{
+  list-style: inside;
+}
+
 .l_toc{position: fixed;
   float: left;
   background-color: #EEFFFF;
