@@ -4,15 +4,86 @@ ul, ol {
     border: solid 3px gray;/*線の種類 太さ 色*/
   }
 
-  ul li, ol li {
+ul li, ol li {
     line-height: 1.5; /*文の行高*/
     padding: 0.5em 0; /*前後の文との余白*/
-  }
+  } 
 
 li{
   list-style: none;
 }
 
-span{
-  display: flex;
+.profile{
+  float: left;
+  background: #fcfcfc;/*背景色*/
+  padding: 0.5em 0.5em 0.5em 2em;/*ボックス内の余白*/
+  border: solid 3px gray;/*線の種類 太さ 色*/
 }
+
+.profilePic{
+  float: left;
+}
+
+/* .profileicon{
+  float:right;
+} */
+
+.profileData{
+  margin-left: 200px;
+  /*margin-bottom: 5px;*/
+}
+
+.works{
+  text-align: left;
+  margin-top: 50px;
+}
+
+.work{
+  margin-right: 50px;
+  text-align: center;
+  width: 350px;
+  height: 500px;
+  padding: 2em 2em 4em 2em;/*ボックス内の余白 上，右，下，左の順*/
+  background-color:#d1cdcd;
+}
+
+.mokuji{
+margin-left: 30px;
+}
+
+.apeal > li{
+  list-style: inside;
+}
+
+.l_toc{position: fixed;
+  float: left;
+  background-color: #EEFFFF;
+  border: solid 1px black;
+}
+
+.l_toc > ol{
+  background-color: #EEFFFF;
+  border:none;
+}
+
+.child_ol{
+  background-color: #EEFFFF;
+  border:none;
+}
+
+.main{
+  margin-left: 300px;
+}
+
+@media(mix-width:50px){
+  span{
+    display: block;
+  } 
+}
+
+@media(min-width:1000px){
+  span{
+    display: flex;
+  }
+}
+
